@@ -25,7 +25,8 @@ body {
       text-align: center;
   }
 
-  .link{
+  .link {
+      font-weight: 500;
       color: #8145f1;
       text-decoration: none;
   }
