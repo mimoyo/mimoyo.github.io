@@ -1,15 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
+html {
+    height: 100%;
+}
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: #f5f5Dc;
+    font-family: 'Raleway', Georgia, sans-serif;
+    margin: 0 auto;  
+    min-height: 100%;
+    max-width: 800px;
+    line-height: 1.5;
+    padding-top: 32px;
+  }
+  .header, .main, .footer {
+      padding: 20px;
+  }
 
-.header__title {
-    max-width: 100%;
-    margin: 0;
-}
-.header__nav--item {
-    display: inline-block;
-    list-style: none;
-    padding: 0 1rem;
-}
+  .header, .footer {
+      text-align: center;
+  }
+
+  .link{
+      color: #8145f1;
+      text-decoration: none;
+  }
+
+
+
+  
