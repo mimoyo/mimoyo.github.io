@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header__title {
+    max-width: 100%;
+    margin: 0;
+}
+.header__nav--item {
+    display: inline-block;
+    list-style: none;
+    padding: 0 1rem;
+}
