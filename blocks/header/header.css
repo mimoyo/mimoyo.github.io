@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 100%;
+    max-height: 700px;
+    min-height: 550px;
+    height: 100vh;
+    background-color: #86A69D;
+}

@@ -1,0 +1,9 @@
+.header__title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+    color: #F2E8DF;
+    flex-basis: 60%;
+}
